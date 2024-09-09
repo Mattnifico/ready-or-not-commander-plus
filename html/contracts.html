@@ -5,21 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RoN Commander+ Hub</title>
     <link rel="stylesheet" href="../css/contractsStyles.css">
+    <script src="../js/contracts.js" type="module" defer></script>
 </head>
 
 <body>
     <heading>
         <a href="../index.html">HUB</a>
         <h1>Contracts</h1>
-        <p>3 weapons contracts</p>
-        <p>chem weapons contract</p>
-        <p>non-lethal weapons contract</p>
-        <p>3 armor contracts</p>
-        <p>headgear contract</p>
-        <p>attachment contract</p>
-        <p>utility contract</p>
-        <p>breaching gear contract</p>
-        <p>enhanced tactical gear contract (long tactical)</p>
     </heading>
+    <div class="contractSelection">
+        <button class="contract-button" id="weaponsIII" data-contract="Weapons III">Weapons III</button>
+        <button class="contract-button" id="chemWeapons" data-contract="Chemical Weapons">Chemical Weapons</button>
+        <button class="contract-button" id="nonLethalWeapons" data-contract="Non-Lethal Weapons">Non-Lethal Weapons</button>
+        <button class="contract-button" id="armorIII" data-contract="Armor III">Armor III</button>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <button class="contract-button" id="weaponsII" data-contract="Weapons II">Weapons II</button>
+        <button class="contract-button" id="attachments" data-contract="Attachments">Attachments</button>
+        <p></p>
+        <button class="contract-button" id="armorII" data-contract="Armor II">Armor II</button>
+        <button class="contract-button" id="headgear" data-contract="Headgear">Headgear</button>
+        <button class="contract-button" id="breachingGear" data-contract="Breaching Gear">Breaching Gear</button>
+        <p></p>
+        <button class="contract-button" id="longTac" data-contract="Long Tacticals">Long Tacticals</button>
+        <button class="contract-button" id="weaponsI" data-contract="Weapons I">Weapons I</button>
+        <p></p>
+        <p></p>
+        <button class="contract-button" id="armorI" data-contract="Armor I">Armor I</button>
+        <p></p>
+        <p></p>
+        <button class="contract-button" id="utility" data-contract="Utility">Utility</button>
+        <p></p>
+    </div>
+    <div class="contractStatus">
+        <p id="contractStatus">No contract selected.</p>
+    </div>
 </body>
 </html>
