@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
 html {
     margin: 0;
     padding: 0;
@@ -5,4 +7,22 @@ html {
     outline: none;
     font-family: "Poppins", "Courier New", Courier, monospace;
     background-color: antiquewhite;
+}
+
+header{
+    text-align: center;
+}
+
+navigation{
+    display: flex;
+}
+
+navigation a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+missionComplete h3{
+    padding-top: 5rem;
 }
