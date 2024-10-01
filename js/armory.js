@@ -60,6 +60,26 @@ function hidePurchasedButtons() {
     });
 }
 
+// function showResearchedButtons() {
+//     let researchedItems = localStorage.getItem("researchedItems");
+
+//     if (researchedItems === null) {
+//         return;
+//     }
+
+//     researchedItems = JSON.parse(researchedItems);
+
+//     const buttons = document.querySelectorAll(".purchase-button");
+//     buttons.forEach(button => {
+//         const itemName = button.getAttribute("data-item");
+
+//         const isClicked = localStorage.getItem(`button_${itemName}_clicked`)
+//         if (isClicked === "true") {
+//             button.style.display = "none";
+//         }
+//     });
+// }
+
 function init(){
     updateFundingHeader();
     hidePurchasedButtons();

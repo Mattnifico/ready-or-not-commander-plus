@@ -37,4 +37,9 @@ function disableCompletedContract(contractName){
     }
 }
 
+function init(){
+    document.querySelectorAll("button.contract-button").forEach(b => b.disabled = true);
+}
+
+init();
 updateContractStatus();
